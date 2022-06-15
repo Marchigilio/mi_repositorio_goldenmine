@@ -1,0 +1,102 @@
+.body{
+    background: radial-gradient(circle, rgba(215,158,37,1) 50%, rgba(31,31,31,1) 85%);
+}
+.container{
+    #marca{
+        color: rgb(203, 153, 26);
+        background-color: black;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .nav{
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        }
+        .nav-item{
+            align-self: flex-end;
+        }
+
+        .nav-link{
+            color: black;
+            font-size: 18px;           
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+        
+        .dropdown-menu{
+            background-color: rgb(0, 0, 0);            
+        }
+        .dropdown-item{
+            color: bisque;
+        }
+   
+    form{
+        margin-top: 5px;
+        height: 50%;
+        align-self: flex-end;
+        }
+        .btn{
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        .btn-outline{
+            background-color: burlywood;
+        }
+
+}
+
+
+.containerAcordion{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 35px;
+    margin-right: 45px;
+    display:block;
+    h1{
+        margin-top: 30px;
+        margin-left: 30px;
+        color: beige;
+        position: relative;
+    }
+    h4{
+        margin-top: 5px;
+        margin-left: 30px;
+        height: 40px;
+        color: white;
+        position: relative;
+    }
+    .accordion-button{
+        color: rgb(6, 6, 6);
+        font-size: 20px;
+        
+    }
+    .accordion-body{
+        color: black;
+        background-color: rgb(198, 143, 75);
+        font-size: 17px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+     #accordionFlushExample{
+         display: block;
+     }
+
+    @media (max-width:768px) {
+        .containerAcordion h1{
+          color: aqua;
+        }
+}
+
+.card-group{
+    margin-top: 30px;
+    gap: 8px;
+    margin-left: 44px;
+    margin-right: 44px;
+    .card-border{
+     border: 0%;    
+    }
+    .card-body{
+        background-color: rgb(20, 20, 20);
+        color: aliceblue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 10px;
+    }

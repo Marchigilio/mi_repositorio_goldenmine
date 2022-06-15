@@ -1,0 +1,104 @@
+.body {
+  background: radial-gradient(circle, #d79e25 50%, #1f1f1f 85%);
+}
+
+.container #marca {
+  color: #cb991a;
+  background-color: black;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.container .nav {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.container .nav-item {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.container .nav-link {
+  color: black;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .dropdown-menu {
+  background-color: black;
+}
+
+.container .dropdown-item {
+  color: bisque;
+}
+
+.container form {
+  margin-top: 5px;
+  height: 50%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.container .btn {
+  background-color: black;
+  color: white;
+}
+
+.container .btn-outline {
+  background-color: burlywood;
+}
+
+.containerAcordion {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 35px;
+  margin-right: 45px;
+  display: block;
+}
+
+.containerAcordion h1 {
+  margin-top: 30px;
+  margin-left: 30px;
+  color: beige;
+  position: relative;
+}
+
+.containerAcordion h4 {
+  margin-top: 5px;
+  margin-left: 30px;
+  height: 40px;
+  color: white;
+  position: relative;
+}
+
+.containerAcordion .accordion-button {
+  color: #060606;
+  font-size: 20px;
+}
+
+.containerAcordion .accordion-body {
+  color: black;
+  background-color: #c68f4b;
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-group {
+  margin-top: 30px;
+  gap: 8px;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+.card-group .card-border {
+  border: 0%;
+}
+
+.card-group .card-body {
+  background-color: #141414;
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
